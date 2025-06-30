@@ -10,5 +10,3 @@ compatibility_date = "2024-06-30"
 GITHUB_CLIENT_ID = "${GB_CLIENT_ID}"
 GITHUB_CLIENT_SECRET = "${GB_CLIENT_SECRET}"
 
-[assets]
-directory = "./dist"
