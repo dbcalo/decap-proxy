@@ -23,7 +23,6 @@ jobs:
       - name: Publish to Cloudflare Workers
         run: |
             wrangler deploy \
-                --account-id ${{ secrets.CLOUDFLARE_ACCOUNT_ID }} \
                 --var GITHUB_CLIENT_ID="${{ secrets.GB_CLIENT_ID }}" \
                 --var GITHUB_CLIENT_SECRET="${{ secrets.GB_CLIENT_SECRET }}"
         env:
