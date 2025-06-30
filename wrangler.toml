@@ -1,5 +1,6 @@
 # wrangler.toml
 name = "decap-proxy"
+main = src/index.js
 type = "javascript"
 
 account_id = "${CLOUDFLARE_ACCOUNT_ID}"
