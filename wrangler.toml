@@ -1,13 +1,5 @@
-# wrangler.toml
 name = "decap-proxy"
 main = "src/index.js"
 type = "javascript"
-
-account_id = "${CLOUDFLARE_ACCOUNT_ID}"
 workers_dev = true
 compatibility_date = "2024-06-30"
-
-[vars]
-GITHUB_CLIENT_ID = "${GB_CLIENT_ID}"
-GITHUB_CLIENT_SECRET = "${GB_CLIENT_SECRET}"
-
