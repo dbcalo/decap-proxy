@@ -6,5 +6,7 @@ compatibility_date = "2024-06-30"
 account_id   = "8da8dc218afbb99b143be8c3de9feca1" 
 
 [env.production]
+name    = "decap-proxy"                # ← deploy prod to the same script
+type    = "javascript"
 zone_id      = "8ce733e617706ec585ba1721811f9f2b"
 route        = "decap-proxy.calorize.us/*"
